@@ -4,3 +4,7 @@ node_js:
 script: 
   - npm install
   - npm test
+deploy:
+  provider: heroku
+  api_key: 5e914e5a-8714-4a0e-81d6-e3533867c1f6
+  app: apptestdim
